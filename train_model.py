@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 # Load dataset
-data = pd.read_csv("diabetes_dataset_400-1.csv")
+data = pd.read_csv("diabetes_dataset_400.csv")
 
 X = data.drop("Outcome", axis=1)
 y = data["Outcome"]
