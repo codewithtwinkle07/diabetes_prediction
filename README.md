@@ -26,7 +26,7 @@ The objective of this project is to build a machine learning model that predicts
 Diabetes_Prediction/
 │── app.py
 │── train_model.py
-│── diabetes.csv
+│── diabetes_dataset_400.csv
 │── diabetes_model.pkl
 │── requirements.txt
 │── README.md
